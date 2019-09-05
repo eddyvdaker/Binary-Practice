@@ -1,6 +1,10 @@
 # Binary-Practice
 A simple application to help students practice binary to decimal and decimal to binary conversions.
 
+![menu](https://media.githubusercontent.com/media/eddyvdaker/Binary-Practice/master/docs/screenshots/menu-screenshot.png)
+
+![question](https://media.githubusercontent.com/media/eddyvdaker/Binary-Practice/master/docs/screenshots/question-screenshot.png)
+
 ## Using the application
 To run the application:
 ```bash
