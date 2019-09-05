@@ -26,4 +26,5 @@ The executable is that available from the the dist folder.
 
 ## License
 Copyright 2019 Eddy van den Aker
+
 MIT License
