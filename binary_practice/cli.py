@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """
-    Binary_Practice.questions
-    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    Binary_Practice.cli
+    ~~~~~~~~~~~~~~~~~~~
 
     Command-line interface for the application.
 
