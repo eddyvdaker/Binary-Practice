@@ -84,7 +84,7 @@ class TestQuestion:
 
     def test_question_render_question(self, question):
         """Test the render_question method."""
-        expected = f'Convert {question.number} to binary:'
+        expected = f'Convert {question.number} to binary: '
         actual = question.render_question()
         assert actual == expected
 

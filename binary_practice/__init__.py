@@ -10,3 +10,10 @@
         eddy.vandenaker@zuyd.nl)
     :license: MIT
 """
+from binary_practice.cli import menu
+
+def start_cli():
+    menu()
+
+def start_gui():
+    print('no GUI yet')

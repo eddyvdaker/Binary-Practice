@@ -45,7 +45,7 @@ class Question(object):
 
         :return: the rendered question text
         """
-        return f'{self.text}:'
+        return f'{self.text}: '
     
     def check_answer(self, user_answer: str) -> bool:
         """Checks the user's input against the answer.
