@@ -30,7 +30,7 @@ class QuestionFrame(tk.Frame):
 
         # Setup question label
         self.question_label = tk.Label(self)
-        self.question_label['text'] = str(self.question.number)
+        self.question_label['text'] = self.question.render_question()
         self.question_label.pack()
 
         # Setup answer box
@@ -75,7 +75,7 @@ class QuestionFrame(tk.Frame):
     def next_question(self):
         self.question_type = self.app.question_type
         self.question = get_question(question_type=self.question_type)
-        self.question_label['text'] = str(self.question.number)
+        self.question_label['text'] = self.question.render_question()
         self.answer_box.delete(1.0, tk.END)
         self.check_label['text'] = ''
 
